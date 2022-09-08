@@ -1,10 +1,26 @@
 {
   "expo": {
     "name": "ProjectT",
-    "slug": "ProjectT",
+    "slug": "projectt",
+    "scheme": "projectt",
     "version": "1.0.0",
+    "owner": "tecsil",
+    "splash": {
+      "image": "./src/assets/splash_screen.png",
+      "backgroundColor": "#D3D3E3"
+    },
+    "icon": "./src/assets/icon.png",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "ios": {
+      "requireFullScreen": true
+    }
   }
 }
